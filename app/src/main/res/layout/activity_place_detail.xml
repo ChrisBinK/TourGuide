@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/image_artist"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:src="@drawable/restaurant"
+        android:layout_weight="3"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="24sp"
+        android:paddingLeft="16dp"
+        android:layout_marginBottom="8dp"
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <TextView
+        android:id="@+id/address"
+        android:paddingLeft="16dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    <TextView
+        android:id="@+id/descrition"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="16sp"
+        android:paddingLeft="16dp"
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+
+</LinearLayout>
